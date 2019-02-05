@@ -1,0 +1,1 @@
+This folder will be used as the Tendermint home directory.

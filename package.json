@@ -1,0 +1,17 @@
+{
+  "name": "js-abci-index-test",
+  "version": "0.0.1",
+  "description": "Trying to isolate a JS-ABCI bug/issue.",
+  "main": "index.js",
+  "repository": "git@github.com:hrharder/js-abci-index-test.git",
+  "author": "Henry Harder <henry@paradigm.market>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js",
+    "reset": "node_modules/tendermint-node/bin/tendermint unsafe_reset_all --home ./tendermint"
+  },
+  "dependencies": {
+    "abci": "^5.0.1",
+    "tendermint-node": "^4.0.0"
+  }
+}
