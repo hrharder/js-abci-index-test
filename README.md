@@ -1,5 +1,5 @@
 # js-abci-index-test
-Attempting to isolate a bug with Tendermint's JavaScript ABCI server.
+Attempting to isolate a bug with Tendermint's JavaScript ABCI server. (I also don't think this is a bug, just a design artifact)
 
 ## Comment
 1. This was motivated by the realization that if a `ResponseDeliverTx` contained the following:
